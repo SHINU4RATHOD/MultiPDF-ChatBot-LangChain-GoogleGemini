@@ -17,7 +17,7 @@ conda activate medibot
 pip install -r requirements.txt
 ```
 
-### Create a `.env` file in the root directory and add your Pinecone & openai credentials as follows:
+### Create a `.env` file in the root directory and add your GOOGLE-GEMINI credentials as follows:
 
 ```ini
 GOOGLE_GEMINI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
