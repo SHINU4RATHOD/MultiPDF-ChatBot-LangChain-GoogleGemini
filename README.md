@@ -3,20 +3,27 @@
 # workflow
 * clone repo
 
-...... bash
-conda create -n multipdfchat python=3.10 -y
-......
+### STEP 01- Create a conda environment after opening the repository
+```bash
+conda create -n medibot python=3.10 -y
+```
 
-..... bash 
-conda activate multipdfchat
-.........
+```bash
+conda activate medibot
+```
 
-
-..... bash
+### STEP 02- install the requirements
+```bash
 pip install -r requirements.txt
-.....
+```
 
-# run app file 
-..... bash
+### Create a `.env` file in the root directory and add your Pinecone & openai credentials as follows:
+
+```ini
+GOOGLE_GEMINI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
+# Run app file 
+```bash
 streamlit run app.py
-......
+```
