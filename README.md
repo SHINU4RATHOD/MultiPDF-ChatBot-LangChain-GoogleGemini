@@ -1,6 +1,8 @@
 # MultiPDF-ChatBot-LangChain-GoogleGemini
 
 **Transform how you interact with your documents!** This project enables users to upload multiple PDF files, process the content, and ask questions to extract valuable insights. Powered by LangChain, Google Gemini Pro, and FAISS for efficient text processing, embedding, and conversational AI.
+![image](https://github.com/user-attachments/assets/fc16729c-e826-4b01-8c85-e8d271f1b4ec)
+
 
 
 ---
